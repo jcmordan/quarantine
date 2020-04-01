@@ -1,0 +1,21 @@
+version: "3.1"
+
+services:
+  monarch-db:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Sa123456
+      MYSQL_DATABASE: quarantine
+      MYSQL_USER: sa
+      MYSQL_PASSWORD: Sa123456
+    ports:
+      - 3306:3306
+    networks:
+      - backend
+
+networks:
+  frontend:
+    driver: bridge
+  backend:
+    driver: bridge

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Quarantine.-455764715.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
+      <e p="Quarantine.Api" t="IncludeRecursive">
+        <e p="Controllers" t="Include">
+          <e p="AuthorsController.cs" t="Include" />
+          <e p="BooksController.cs" t="Include" />
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Quarantine.Api.csproj" t="IncludeRecursive" />
+        <e p="Startup.cs" t="Include" />
+        <e p="WeatherForecast.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Quarantine.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Quarantine.Core" t="IncludeRecursive">
+        <e p="Models" t="Include">
+          <e p="Author.cs" t="Include" />
+          <e p="Book.cs" t="Include" />
+          <e p="IEntity.cs" t="Include" />
+        </e>
+        <e p="Quarantine.Core.csproj" t="IncludeRecursive" />
+        <e p="Repositories" t="Include">
+          <e p="IAuthorRepository.cs" t="Include" />
+          <e p="IBookRepository.cs" t="Include" />
+          <e p="IGenericRepository.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="AuthorService.cs" t="Include" />
+          <e p="BookService.cs" t="Include" />
+          <e p="GenericService.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Quarantine.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Quarantine.Data" t="IncludeRecursive">
+        <e p="EntityConfiguration" t="Include">
+          <e p="AuthorEntityConfiguration.cs" t="Include" />
+          <e p="BookEntityConfiguration.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200331204641_InitialMigration.Designer.cs" t="Include" />
+          <e p="20200331204641_InitialMigration.cs" t="Include" />
+          <e p="QuarantineDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Quarantine.Data.csproj" t="IncludeRecursive" />
+        <e p="QuarantineDbContext.cs" t="Include" />
+        <e p="QuarantineDbContextFactory.cs" t="Include" />
+        <e p="Repositories" t="Include">
+          <e p="AuthorRepository.cs" t="Include" />
+          <e p="BookRepository.cs" t="Include" />
+          <e p="GenericRepository.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Quarantine.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Quarantine.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
